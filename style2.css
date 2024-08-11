@@ -1,0 +1,79 @@
+
+        body{
+            margin: 0;
+            
+  font-family: "Roboto", sans-serif;
+  
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  
+}
+
+        
+        .header {
+            background-color: #0171f9;
+            border: 0 black solid;
+            display: flex;
+             justify-content: space-between;
+             align-items: center;
+             padding: 5px;
+        }
+        .logo{
+            width: 100px;
+        }
+.header-link a{
+    color:white;
+    padding: 5px 15px;
+    text-decoration: none;
+    
+}
+.btn{
+    padding: 5px 15px;
+    border-radius: 15px;
+    color:white;
+    background-color:red ;
+    border: none;
+}
+.btn:hover{
+    color:red;
+    background-color:white ;
+}
+       .header-link a:hover{
+
+        color:red;
+        background-color: #2386fe;
+        border-radius: 15px;
+       }
+       .header-link button:hover{
+        color:red;
+        background-color: none;
+       }
+       .header-link button{
+        padding: 5px 15px;
+        border-radius: 15px;
+       }
+.landing-page{
+    background-color: #0171f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color:white
+}
+.landing-page-search input{
+border-radius: 50px;
+border: none;
+outline: none;
+height: 25px;
+padding-left: 10px;
+padding-right: 20px;
+
+}
+.landing-page-search button{
+    position: absolute;
+    left: 185px;
+    height: 27px;
+
+}
